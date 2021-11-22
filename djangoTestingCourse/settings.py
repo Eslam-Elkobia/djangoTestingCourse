@@ -48,6 +48,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'DjangoTesting.apps.DjangotestingConfig',
     'django.contrib.sites',
+
+    'rest_framework',
+
+    'api.companies',
 ]
 
 SITE_ID = 1
